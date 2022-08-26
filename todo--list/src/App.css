@@ -1,35 +1,32 @@
-.Todo-list-container{
+.Todo-list-container {
   margin: 5rem;
-   display: flex; 
-   justify-content: center; 
-   align-items: flex-start; 
-    width: 70rem; 
-   border:1px solid black;
-   min-height: 45rem;
-   background-color:hotpink;
-   border-radius: 1rem;
-
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 70rem;
+  border: 1px solid black;
+  min-height: 45rem;
+  background-color: hotpink;
+  border-radius: 1rem;
 }
 
-.todo-form{
-   
+.todo-form {
   width: 100%;
-   display: flex; 
+  display: flex;
   margin-top: 3rem;
-   font-size: 1.5rem;
-   gap: 2rem;
+  font-size: 1.5rem;
+  gap: 2rem;
 }
 
-.todo-form input{
+.todo-form input {
   border: 1px solid black;
   font-size: 2.5rem;
   padding: 1rem;
   margin: 1rem;
   border-radius: 1rem;
-  
 }
 
-.todo-form button{
+.todo-form button {
   border: 1px solid black;
   background-color: white;
   border-radius: 1rem;
@@ -39,13 +36,13 @@
   font-size: 1rem;
 }
 
-.todo-form button:hover{
+.todo-form button:hover {
   background-color: black;
-  color:white;
+  color: white;
   font-weight: 600;
 }
 
-.task-div{
+.task-div {
   background-color: aliceblue;
   padding: 2rem;
   display: flex;
@@ -54,27 +51,25 @@
   margin: 2rem;
   border-radius: 1rem;
   box-shadow: 0.5rem 0.5rem 1rem gainsboro;
-
 }
 
-.todo-text{
+.todo-text {
   font-size: 2rem;
 }
 
-.icons{
+.icons {
   display: flex;
   gap: 3rem;
   font-size: 2rem;
   cursor: pointer;
 }
 
-.complete{
+.complete {
   text-decoration: line-through;
   opacity: 0.5;
   background-color: skyblue;
 }
 
-
-.hide{
- display: none;
+.hide {
+  display: none;
 }

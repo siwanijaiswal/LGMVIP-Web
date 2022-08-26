@@ -11,7 +11,6 @@ const usedKeyCodes = [
 const numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 const operators = ["-", "+", "*", "/"];
 
-
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(JSON.parse(localStorage.getItem("calculator-app-mode")) || false);
   const [expression, setExpression] = useState("");
@@ -56,7 +55,6 @@ function App() {
       if (tempHistory.length > 20) tempHistory = tempHistory.splice(0, 1);
       tempHistory.push(expression);
       setHistory(tempHistory);
-
     }
   };
   const calculateResult = (exp) => {
@@ -81,8 +79,6 @@ function App() {
       (history))
   }, [history])
 
-
-
   return (
     <div className="app"
       tabIndex="0"
@@ -97,14 +93,11 @@ function App() {
             <div className={`app_calculator_navbar_toggle_circle ${isDarkMode ? "app_calculator_navbar_toggle_circle_active" : ""}`} />
           </div>
           <img src={isDarkMode ? moonIcon : sunIcon} alt="mode" />
-
         </div>
         <Header expression={expression} result={result} history={history} />
         <KeyPad handleKeyPress={handleKeyPress} />
       </div>
-
     </div>
-
   );
 }
 

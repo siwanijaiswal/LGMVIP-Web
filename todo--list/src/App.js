@@ -6,7 +6,6 @@ function App() {
   return (
     <div className="Todo-list-container">
      <TodoList></TodoList> 
-      
     </div>
   );
 }
