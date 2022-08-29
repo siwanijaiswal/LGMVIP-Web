@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Enrollment Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+      <h2>Student Enrollment Form</h2>
+      <h3>Lets Grow More Task-3</h3>
+      <section>
+        <div class="form"> 
+            <form>
+                <div class="labels">
+                    <label for="name" class="inputs-labels">Name:</label>
+                    <input type="text" name="name" id="name" class="inputs" placeholder="name">
+                </div>
+                <div class="labels">
+                    <label for="email" class="inputs-labels">Email:</label>
+                    <input type="email" name="email" id="email" class="inputs" placeholder="email">
+                </div>
+                <div class="labels">
+                    <label for="website" class="inputs-labels"> Website:</label>
+                    <input type="url" name="website" id="website" class="inputs" placeholder="enter url">
+                </div>
+                <div>
+                    <label for="image" class="inputs-labels">Image:</label>
+                    <input type="file" name="image" id="image" class="inputs">
+                </div>
+                <div>
+                    <label class="radio-labels">Gender:</label>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male"> Male</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                </div>
+                <div>
+                    <label class="radio-labels">Skills:</label>
+                
+                    <input type="checkbox" id="skill1" name="skill1" value="ReactJs">
+                    <label for="skill1">React.js</label>
+                    
+                    <input type="checkbox" id="skill2" name="skill2" value="Html">
+                    <label for="skill1">Html</label>
+                    <input type="checkbox" id="skill3" name="skill3" value="CSS">
+                    <label for="skill3">CSS</label>
+                    <input type="checkbox" id="skill4" name="skill4" value="Javascript">
+                    <label for="skill4">Javascript</label>
+                </div>
+                <div>
+                    <input type="submit" value="Register Student" class="register-btn">
+                    <button type="reset" class="btn-danger" value="Cancel">Cancel</button>
+                </div>       
+            </form>
+        </div>
+        <div class="display">
+            <h3> REGISTERED STUDENTS  </h3>
+            <hr>
+            <div class="cards">
+         </div>
+        </div>
+      </section>
+      <script src="./script.js"></script>
+</body>
+</html>
